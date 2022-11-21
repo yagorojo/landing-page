@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+* {
+  padding: 0; margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header, .hero, .footer {
+  background-color: #1F2937;
+}
+
+.header, .hero {
+  padding: 0 15%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.nav, .hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  gap: 3em;
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.signup {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  border: none;
+  padding: 0.5em 2em;
+  font-weight: 600;
+  font-size: 18px;
+  display: block;
+}
+
+.hero-img {
+  width: 525px;
+  height: 235px;
+  background-color: #e5e7eb;
+  color: white;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  padding: 4em 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+
+.cards-title {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.cards-container {
+  display: flex;
+  gap: 48px;
+}
+
+.card {
+  width: 175px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  color: gray;
+}
+
+.card-img {
+  border-radius: 10px;
+  width: 175px;
+  height: 175px;
+  border: 3px solid #3882f6;
+}
+
+.quote {
+  padding: 6em 20%;
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote-author {
+  font-weight: 900;
+  font-size: 24px;
+  text-align: end;
+}
+
+.signup-modal-wrapper {
+  padding: 6em 15%;
+}
+
+.signup-modal-container {
+  background-color: #3882f6;
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #f9faf8;
+  gap: 8em;
+}
+
+.signup-modal-title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.outline {
+  border: 2px solid #f9faf8;
+}
+
+.footer {
+  padding: 2em;
+  text-align: center;
+  color: #f9faf8;
+}
